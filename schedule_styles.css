@@ -19,17 +19,39 @@ body {
 
 div.eventdesc {
   font-family: serif;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
+  float: right;
+  width: 500px;
 }
 
 div.timedate {
   font-family: serif;
   font-size: 20px;
   text-align: center;
+  width: 500px;
+  float: left;
 }
 
-h3 {}
+div.timedate.h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+div.eventdesc.h3 {
+  font-family: serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  background-color: #00005c;
+}
 
 .portrait-image {
   width: 300px;
