@@ -1,0 +1,22 @@
+div.center {
+    text-align: center;
+    background-color: #00005c;
+    color: white;
+    padding: 20px;
+
+}
+h1 { font-family: sans-serif;
+     font-size: 60px;
+     text-align: center;
+     text-shadow: 4px 4px 4px #aaa;
+}
+body {
+  font-family: 'Changa One';font-size: 22px;
+}
+
+.portrait-image {
+    width:300px;
+    height:400px;
+    border: 2px solid black;
+    object-fit: contain;
+}
