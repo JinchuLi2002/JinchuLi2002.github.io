@@ -1,15 +1,18 @@
-div.center {
-  text-align: center;
+.left {
+  text-align: left;
   background-color: #00005c;
   color: white;
-  padding: 20px;
+  padding: 10px;
+  padding-left: 30px;
 }
 
 h1 {
   font-family: sans-serif;
   font-size: 60px;
-  text-align: center;
   text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  color: #00005c;
+  border: 5px solid #00005c;
 }
 
 body {
@@ -17,32 +20,23 @@ body {
   font-size: 22px;
 }
 
-div.eventdesc {
-  font-family: serif;
-  font-size: 15px;
-  text-align: center;
+.eventdesc {
+  text-align: left;
   float: right;
-  width: 500px;
+  width: 526px;
+  color: #00005c;
 }
 
-div.timedate {
-  font-family: serif;
-  font-size: 20px;
+.timedate {
   text-align: center;
-  width: 500px;
+  width: 526px;
   float: left;
+  color: #00005c;
 }
 
-div.timedate.h3 {
-  font-family: sans-serif;
-  font-size: 30px;
-  text-align: center;
-}
-
-div.eventdesc.h3 {
+.h3 {
   font-family: serif;
   font-size: 30px;
-  text-align: center;
 }
 
 footer {
@@ -52,10 +46,15 @@ footer {
   text-align: center;
   background-color: #00005c;
 }
-
-.portrait-image {
-  width: 300px;
-  height: 400px;
-  border: 2px solid black;
-  object-fit: contain;
+p {
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+.navbar {
+  color: #00005c;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
