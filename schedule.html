@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <!-- Logo + Navbar -->
   <header>
     <div class="left">
       <a href="index.html"><img src="cwe.png" width="64" height="64"/></a>
@@ -16,19 +17,26 @@
       <p><a href="index.html">Home</a> • <a href="schedule.html">Schedule</a></p>
     </div>
   </header>
-  <section>
-    <div class="header">
-      <h1>Schedule</h1>
-    </div>
-    <div class="timedate">
-      <h3>Times & Dates</h3>
-      <p><strong>January 15th, 2020</strong></p>
-    </div>
-    <div class="eventdesc">
-      <h3><b>Event Information</b></h3>
-      <p>Test Event</p>
-    </div>
-  </section>
+<!-- Main Body is down here. -->
+  <table>
+    <caption>Schedule</caption>
+    <tr>
+      <th class="timedate">
+        <h3>Times & Dates</h3>
+      </th>
+      <th class="eventdesc">
+        <h3><b>Event Information</b></h3>
+      </th>
+    </tr>
+    <tr>
+      <td><p class="timedate"><strong>January 15th, 2020</strong></p></td>
+      <td><p class="eventdesc">Test Event</p></td>
+    </tr>
+    <tr>
+      <td><p class="timedate"><strong>April 1st, 2020</strong></p></td>
+      <td><p class="eventdesc">April Fool's Day</p></td>
+    </tr>
+  </table>
   <footer>
     <strong>Copyright &copy; 2020 Cascadia WE Engineers Club</strong>
   </footer>

@@ -6,13 +6,13 @@
   padding-left: 30px;
 }
 
-h1 {
+caption {
   font-family: sans-serif;
   font-size: 60px;
   text-shadow: 4px 4px 4px #aaa;
   text-align: center;
   color: #00005c;
-  border: 5px solid #00005c;
+  border: 3px solid #00005c;
 }
 
 body {
@@ -22,7 +22,6 @@ body {
 
 .eventdesc {
   text-align: left;
-  float: right;
   width: 1000px;
   color: #00005c;
 }
@@ -30,14 +29,13 @@ body {
 .timedate {
   text-align: center;
   width: 526px;
-  float: left;
   color: #00005c;
 }
 
 h3 {
   font-family: serif;
   font-size: 30px;
-  border: 2px solid #00005c;
+  margin: 5px;
 }
 
 footer {
@@ -47,11 +45,7 @@ footer {
   text-align: center;
   background-color: #00005c;
   padding: 5px;
-}
-
-p {
-  margin: 30px;
-  font-size: 20px;
+  margin-top: 10px;
 }
 
 b {
@@ -65,6 +59,14 @@ b {
   padding: 0px;
   text-align: center;
 }
-section {
-  
+table {
+  border: 2px solid #00005c;
+  border-spacing: 5px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
