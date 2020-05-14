@@ -23,7 +23,7 @@ body {
 .eventdesc {
   text-align: left;
   float: right;
-  width: 526px;
+  width: 1000px;
   color: #00005c;
 }
 
@@ -34,9 +34,10 @@ body {
   color: #00005c;
 }
 
-.h3 {
+h3 {
   font-family: serif;
   font-size: 30px;
+  border: 2px solid #00005c;
 }
 
 footer {
@@ -45,11 +46,16 @@ footer {
   font-size: 15px;
   text-align: center;
   background-color: #00005c;
+  padding: 5px;
 }
+
 p {
   margin: 30px;
-  text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+}
+
+b {
+  padding-left: 20px;
 }
 .navbar {
   color: #00005c;
@@ -57,4 +63,5 @@ p {
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
+  text-align: center;
 }
