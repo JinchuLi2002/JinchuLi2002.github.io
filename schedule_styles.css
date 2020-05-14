@@ -1,0 +1,72 @@
+.left {
+  text-align: left;
+  background-color: #00005c;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+caption {
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  color: #00005c;
+  border: 3px solid #00005c;
+}
+
+body {
+  font-family: 'Changa One';
+  font-size: 22px;
+}
+
+.eventdesc {
+  text-align: left;
+  width: 1000px;
+  color: #00005c;
+}
+
+.timedate {
+  text-align: center;
+  width: 526px;
+  color: #00005c;
+}
+
+h3 {
+  font-family: serif;
+  font-size: 30px;
+  margin: 5px;
+}
+
+footer {
+  clear: both;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  background-color: #00005c;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+b {
+  padding-left: 20px;
+}
+.navbar {
+  color: #00005c;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+table {
+  border: 2px solid #00005c;
+  border-spacing: 5px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
