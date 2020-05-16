@@ -139,3 +139,10 @@ section {
 p{
   font-family: serif;
 }
+.pfp{
+  object-fit: cover;
+  border-radius: 50%;
+  border: black solid 2px;
+  width: 200px;
+  length: 200px;
+}
