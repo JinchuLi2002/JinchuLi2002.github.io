@@ -136,32 +136,7 @@ body {
 section {
   text-align: center;
 }
+
 p{
   font-family: serif;
-}
-
-.pfp {
-  width: 200px;
-  length: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: black solid 2px;
-}
-
-<<<<<<< HEAD
-#rcorners {
-  border-radius: 15px;
-  background: paper.jpg);
-  background-position: center;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-=======
-.pfp{
-  object-fit: cover;
-  border-radius: 50%;
-  border: black solid 2px;
-  width: 200px;
-  length: 200px;
->>>>>>> 79091c9c7571145e9b14126a048fd5ad07fd2614
 }
