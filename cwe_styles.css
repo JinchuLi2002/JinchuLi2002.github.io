@@ -132,3 +132,10 @@ body {
   text-align: right;
   color: #00005c;
 }
+
+section {
+  text-align: center;
+}
+p{
+  font-family: serif;
+}
