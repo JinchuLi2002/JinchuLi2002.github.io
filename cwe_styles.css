@@ -140,3 +140,22 @@ section {
 p{
   font-family: serif;
 }
+
+.signup-cell{
+    border-color: #84a9ac;
+    background-color: #00909e;
+    color:aliceblue;
+    border: 5px solid white;
+    height: 73px;
+    display: flex;
+
+}
+
+.signup-cell-content{
+    margin: auto;
+}
+
+.club-banner{
+    font-size: 74px;
+    color: #00909e;
+}
