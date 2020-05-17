@@ -1,0 +1,37 @@
+#grad {
+  background-image: linear-gradient(#A6D8D4, #A42CD6);
+  text-align: center;
+  height: 962px;
+}
+
+.main {
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 535px;
+  width: 800px;
+  position: absolute;
+  background-image: linear-gradient(#CDFFF9, #A5FFD6);
+  height: 550px;
+  color: black;
+  border-radius: 50px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+}
+
+form {
+  text-align: center;
+  margin-top: 0;
+}
+
+input, textarea {
+  font-size: 12pt;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #efefef;
+  height: 30px;
+}
+
+textarea {
+  height: 250px;
+}
