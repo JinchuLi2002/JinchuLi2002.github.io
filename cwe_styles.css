@@ -15,7 +15,7 @@
  }
 
 .color {
-  color: #00909e;
+  color: #84a9ac;
 }
 
 nav ul {
@@ -111,8 +111,15 @@ margin-bottom: auto;
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
+  color: #84a9ac;
+  background-color: #dae1e7;
 }
 
+.padding1 {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 
 body {
@@ -158,4 +165,12 @@ footer {
   background-color: #00909e;
   padding: 5px;
   margin-top: 10px;
+}
+
+.color1 {
+  color: #00909e;
+}
+
+.heading1 {
+  padding-left: 10px;
 }
