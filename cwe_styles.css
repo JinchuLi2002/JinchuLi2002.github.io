@@ -146,3 +146,13 @@ p{
   border-radius: 50%;
   border: #84a9ac solid 3px;
 }
+
+footer {
+  clear: both;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  background-color: #00909e;
+  padding: 5px;
+  margin-top: 10px;
+}
