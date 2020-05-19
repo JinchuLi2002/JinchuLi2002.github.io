@@ -53,7 +53,7 @@ nav a:hover::before {
 .flex-container {
 
   padding: 100px;
-  background-color:#00909e;
+  background-color:#4d4c7d;
 }
 span {
   color: #dae1e7;
@@ -74,11 +74,11 @@ h1 {
   font-size: 100px;
   font-weight: 400;
   background-position: center;
-  background-color: #dae1e7;
+  background-color:white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: 100%;
-    color: #00909e;
+    color: #4d4c7d;
   overflow-x: hidden;
 }
 .club-intro{
