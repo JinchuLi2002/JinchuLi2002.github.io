@@ -140,3 +140,12 @@ section {
 p{
   font-family: serif;
 }
+
+.pfp {
+  width: 200px;
+  length: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: #84a9ac solid 3px;
+  background-position: center;
+}
