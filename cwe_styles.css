@@ -14,7 +14,9 @@
    clear: both;
  }
 
-
+.color {
+  color: #00909e;
+}
 
 nav ul {
   margin: 0;
@@ -76,7 +78,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: 100%;
-  color: #00909e;
+    color: #00909e;
   overflow-x: hidden;
 }
 .club-intro{
@@ -135,6 +137,7 @@ body {
 
 section {
   text-align: center;
+  background-color: #dae1e7;
 }
 
 p{
@@ -144,7 +147,7 @@ p{
 .pfp {
   object-fit: cover;
   border-radius: 50%;
-  border: #84a9ac solid 3px;
+  border: white solid 3px;
 }
 
 footer {
