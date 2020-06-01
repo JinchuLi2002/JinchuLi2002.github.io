@@ -135,3 +135,7 @@ input {
     background-color: -internal-light-dark-color(white, black);
     -webkit-rtl-ordering: logical;
 }
+
+table a {
+  color: white;
+}
