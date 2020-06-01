@@ -66,11 +66,12 @@ body {
   margin: 0px;
   padding: 0px;
   font-weight: 100px;
+
 }
 
 .eventdesc {
   text-align: left;
-  width: 1000px;
+  width: 100%;
   color: white;
 }
 
