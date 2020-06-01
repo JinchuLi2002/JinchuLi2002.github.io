@@ -1,37 +1,86 @@
-#grad {
-  background-image: linear-gradient(#A6D8D4, #A42CD6);
+body {
+  background-image: linear-gradient(to right, #b993d6, #8ca6db);
+}
+
+#wrapper {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: 375px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  -webkit-animation: fadein 3s;
+  -ms-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#main {
+  font-family: 'Open Sans Condensed';
   text-align: center;
-  height: 962px;
+  padding: 45px;
+  color: #3F403F;
 }
 
-.main {
-  text-align: center;
-  margin-top: 200px;
-  margin-left: 535px;
-  width: 800px;
-  position: absolute;
-  background-image: linear-gradient(#CDFFF9, #A5FFD6);
-  height: 550px;
-  color: black;
-  border-radius: 50px;
-  border-color: black;
-  border-style: solid;
-  padding: 20px;
+img.resize {
+  width: 35%;
+  height: auto;
 }
 
-form {
-  text-align: center;
-  margin-top: 0;
-}
-
-input, textarea {
-  font-size: 12pt;
-  border: 1px solid;
-  border-radius: 5px;
-  background-color: #efefef;
-  height: 30px;
-}
-
-textarea {
-  height: 250px;
+img.logo {
+  width: 20%;
+  height: auto;
 }
