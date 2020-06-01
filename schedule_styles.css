@@ -61,8 +61,11 @@ caption {
 }
 
 body {
-  font-family: 'Changa One';
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 100px;
 }
 
 .eventdesc {
