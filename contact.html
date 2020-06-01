@@ -4,27 +4,34 @@
 <head>
   <meta charset="utf-8">
   <title>Contact Page</title>
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300'>
   <link rel="stylesheet" href="contact.css">
-  <link rel=" icon" href="favicon.ico" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <script type="text/javascript">
+    function color() {
+      document.getElementById("insta").src = "resources/images/instagram2.png";
+    }
+
+    function basic() {
+      document.getElementById("insta").src = "resources/images/instagram.jpg";
+    }
+  </script>
 </head>
 
-<body id="grad">
-  <div class="main">
-    <h1>Contact Us</h1>
-    <br>
-    <form action="MAILTO:weengineers@cascadia.edu" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Name" size="50" required />
+<body>
+  <div id="wrapper">
+    <section id="main">
+      <header>
+        <a href="index.html"><img src="resources/images/cwe.png" class="resize"></a>
+        <h1>Cascadia WE Engineers</h1>
+        <p>weengineers@cascadia.edu</p>
+      </header>
       <br>
-      <br>
-      <input type="text" name="email" placeholder="Email" size="50" required />
-      <br>
-      <br>
-      <textarea name="message" rows="8" cols="47" placeholder="Message" required></textarea>
-      <br>
-      <br>
-      <input type="submit" value="Submit">
-    </form>
+      <footer>
+        <a href="https://www.instagram.com/cascadiawe/?igshid=1wg1ubnxr71dr"><img id="insta" class="logo" src="resources/images/instagram.jpg" onmouseover="color()" onmouseout="basic()"></a>
+      </footer>
+    </section>
   </div>
 </body>
 
