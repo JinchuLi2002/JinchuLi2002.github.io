@@ -15,7 +15,12 @@
  }
 
 .color {
-  color: #84a9ac;
+  color: white;
+  background-color: #856c8b;
+}
+.color1 {
+  background-color: #856c8b;
+  color: white;
 }
 
 nav ul {
