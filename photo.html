@@ -42,19 +42,71 @@
     </b></caption>
   </table>
 </div>
-  <div class="title">
-    <img class="flight" src="WhatsApp Image 2020-05-16 at 7.54.06 PM.jpeg	" alt="">
-    <p>Cascadia WE Engineers club trip to the museum of flight.</p>
-    <img src="WhatsApp Image 2020-05-16 at 7.54.31 PM.jpeg	" alt="">
-    <p>WE Engineers trip to Microsoft</p>
-    <img src="WhatsApp Image 2020-05-16 at 7.54.54 PM.jpeg	" alt="">
-    <p>TED talk and tacos</p>
-    <img src="WhatsApp Image 2020-05-16 at 7.56.06 PM.jpeg	" alt="">
-    <p>Science fiction movie appreciation night</p>
-    <img src="WhatsApp Image 2020-05-16 at 7.56.49 PM.jpeg	" alt="">
-    <p>Science fiction appreciation night</p>
-  </div>
 
+
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">
+        1/5
+      </div>
+      <img class="flight" src="WhatsApp Image 2020-05-16 at 7.54.06 PM.jpeg	" style="width:100%" alt="">
+      <p>Cascadia WE Engineers club trip to the museum of flight.</p>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">
+        2/5
+      </div>
+      <img src="WhatsApp Image 2020-05-16 at 7.54.31 PM.jpeg	" style="width:100%" alt="">
+      <p>WE Engineers trip to Microsoft</p>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">
+        3/5
+      </div>
+      <img src="WhatsApp Image 2020-05-16 at 7.54.54 PM.jpeg	" style="width:100%" alt="">
+      <p>TED talk and tacos</p>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">
+        4/5
+      </div>
+      <img src="WhatsApp Image 2020-05-16 at 7.56.06 PM.jpeg	" style="width:100%"  alt="">
+      <p>Science fiction movie appreciation night</p>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">
+        5/5
+      </div>
+      <img src="WhatsApp Image 2020-05-16 at 7.56.49 PM.jpeg	" style="display: block"  alt="">
+      <p>Science fiction appreciation night</p>
+    </div>
+
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</div>
 
 
 </body>
