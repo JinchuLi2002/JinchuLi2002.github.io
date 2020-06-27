@@ -2,7 +2,7 @@ header{
  background-color: white;
  padding-right:20px;
  font-size: 14px;
- padding-top: 5px;
+font-family: "Montserrat" sans-serif;
  padding-bottom: 5px;
  padding-left:10px;
 }
@@ -52,16 +52,28 @@ nav a:hover::before {
 }
 
 caption {
-  font-family: sans-serif;
+
+  padding-left: 10px;
+ background-color: #4d4c7d;
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 400;
+  background-position: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+    color: #4d4c7d;
+  overflow-x: hidden;
   font-size: 60px;
-  text-shadow: 4px 4px 4px #aaa;
+
   text-align: center;
   color: white;
-  border: 3px solid white;
+  border: 10px solid white;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   margin: 0px;
   padding: 0px;
@@ -70,22 +82,23 @@ body {
 }
 
 .eventdesc {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   text-align: left;
   width: 100%;
   color: white;
+
 }
 
 .timedate {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   text-align: center;
   width: 526px;
   color: white;
 }
 
-h3 {
-  font-family: serif;
-  font-size: 30px;
-  margin: 5px;
-}
+
 
 footer {
   clear: both;
@@ -115,8 +128,10 @@ tr {
 }
 
 .table {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   background-color: #827397;
-  padding-top: 30px;
+
   padding-bottom: 20px;
 }
 .navbar {
@@ -142,4 +157,8 @@ input {
 
 table a {
   color: white;
+}
+h3 {
+  font-family: "Poppins" sans-serif;
+  font-size: 30px;
 }
