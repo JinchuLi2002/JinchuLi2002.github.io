@@ -109,6 +109,7 @@ h1 {
   color: white;
   text-align: left;
   padding: 20px;
+  display: flex;
 }
 
 .signUp {
@@ -278,9 +279,7 @@ caption {
   .container{
     position: relative;
   }
-  .mySlides {
-    display: none;
-  }
+
   .cursor {
   cursor: pointer;
 }
