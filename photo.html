@@ -5,7 +5,7 @@
   <link rel=" icon" href="favicon.ico">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="cwe_styles.css">
+  <link rel="stylesheet" href="photo.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
   <title>Photo gallery</title>
@@ -42,15 +42,20 @@
     </b></caption>
   </table>
 </div>
+<section id= "main">
+  
+<div id="officers-carousel" class="carousel slide">
 
+<div class="carousel-inner">
 
-  <div class="container">
     <div class="mySlides">
       <div class="numbertext">
         1/5
       </div>
       <img class="flight" src="WhatsApp Image 2020-05-16 at 7.54.06 PM.jpeg	" style="width:100%" alt="">
+    <div class="carousel-caption">
       <p>Cascadia WE Engineers club trip to the museum of flight.</p>
+    </div>
     </div>
 
     <div class="mySlides">
@@ -58,14 +63,19 @@
         2/5
       </div>
       <img src="WhatsApp Image 2020-05-16 at 7.54.31 PM.jpeg	" style="width:100%" alt="">
-      <p>WE Engineers trip to Microsoft</p>
+<div class="carousel-caption">
+  <p>WE Engineers trip to Microsoft</p>
+</div>
+
     </div>
     <div class="mySlides">
       <div class="numbertext">
         3/5
       </div>
       <img src="WhatsApp Image 2020-05-16 at 7.54.54 PM.jpeg	" style="width:100%" alt="">
+    <div class="carousel-caption">
       <p>TED talk and tacos</p>
+    </div>
     </div>
     <div class="mySlides">
       <div class="numbertext">
@@ -79,35 +89,36 @@
         5/5
       </div>
       <img src="WhatsApp Image 2020-05-16 at 7.56.49 PM.jpeg	" style="display: block"  alt="">
-      <p>Science fiction appreciation night</p>
-    </div>
 
-
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-<script type="text/javascript">
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-showSlides(slideIndex += n);
-}
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
+<div class="carousel-caption">
+  <p>Science fiction appreciation night</p>
 </div>
 
+    </div>
+
+</div>
+
+    <a class="prev" href="#officers-carousel" data-slide= "prev"></a>
+    <a class="next" href="#officers-carousel"ata-slide = "next"> </a>
+</div>
+<script type="text/javascript">
+(document).keydown function (e) {
+  var action = null;
+  if (e.keycode == 37)
+  action = 'prev';
+  else if (e.keycode==39)
+  action = 'next';
+  else {
+    return;
+  }
+  ('#officers-carousel').carousel(action)});
+</script>
+</section>
+</div>
+</div>
+:: after
+</div>
+</div>
 
 </body>
 

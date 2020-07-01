@@ -323,6 +323,26 @@ img{
   vertical-align: middle;
   border-style: none;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+*,*: after, *::before {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+
+}
+*,*: after, *::before {
+  box-sizing: border-box;
+}
+.carousel-inner {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.mySlides {
+  display: none;
 }
