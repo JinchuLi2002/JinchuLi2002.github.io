@@ -77,9 +77,17 @@ nav a:hover::before {
   width: 100%;
 }
 
-.flex-container {
-  padding: 100px;
+.outer-flex {
   background-color: #4d4c7d;
+}
+
+.flex-container {
+  padding: 100px 100px 12px 100px;
+  background-color: #4d4c7d;
+  background-image: url(./resources/images/IMG_0068.SVG);
+    background-position: 30% 0%;
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
 }
 
 span {
@@ -360,4 +368,17 @@ div {
 }
 .mySlides {
   display: none;
+}
+
+.outer-container {
+  background-color: #827397;
+}
+
+.stem-image {
+  background-image: url(./resources/images/IMG_0073.svg);
+  background-position: 0% 57%;
+  background-size: 150px 150px;
+  background-repeat: repeat;
+  padding-top: 1px;
+  height: 64px;
 }
