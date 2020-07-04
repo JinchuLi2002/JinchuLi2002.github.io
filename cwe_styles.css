@@ -17,7 +17,9 @@ header ::after {
   color: white;
 
 }
-
+.school{
+  font-size: 15px;
+}
 .color1 {
   text-align: center;
   color: white;
@@ -79,7 +81,7 @@ nav a:hover::before {
 
 .outer-flex {
   background-color: #4d4c7d;
-  
+
 }
 
 .flex-container {

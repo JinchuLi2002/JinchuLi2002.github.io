@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, #b993d6, #8ca6db);
+  background-color: #4d4c7d;
 }
 
 #wrapper {
@@ -9,7 +9,7 @@ body {
   height: 600px;
   position: relative;
   top: 30px;
-  bottom: 30px;
+  bottom: 40px;
   left: 300px;
   right: 100px;
   text-align: center;
