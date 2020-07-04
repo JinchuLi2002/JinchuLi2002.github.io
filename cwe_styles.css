@@ -61,8 +61,27 @@ nav a:hover::before {
 }
 
 .flex-container {
-  padding: 100px;
+  padding: 10px 0px;
   background-color: #4d4c7d;
+}
+
+.section-title {
+  margin-left: 46px;
+}
+
+.club-title-container {
+  margin: 20px 0px;
+}
+
+.club-title {
+  font-size: 60px;
+  color: black;
+  font-weight: bolder;
+  background: white;
+  text-align: center;
+  padding: 20px 0px;
+  font-family: "Poppins", sans-serif;
+  color: #4d4c7d;
 }
 
 span {
@@ -99,18 +118,41 @@ h1 {
   transform: translate(-50%, 20%)
 }
 
+.sub-paragraph-container {
+  background-image: url(./resources/images/IMG_0068.SVG);
+  background-position: 0% 57%;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  padding-top: 1px;
+}
+
 .sub-paragraph {
   font-size: 15px;
   color: #dae1e7;
+  margin-left: 240px;
+
 }
 
 .club-meeting {
   background-color: #827397;
   color: white;
   text-align: left;
-  padding: 20px;
-  display: flex;
+  padding: 20px 0px;
 }
+
+.club-meeting-bio {
+    padding-left: 144px;
+}
+
+.stem-image {
+  background-image: url(./resources/images/IMG_0073.svg);
+  background-position: 0% 57%;
+  background-size: 150px 150px;
+  background-repeat: repeat;
+  padding-top: 1px;
+  height: 64px;
+}
+
 .padding1 {
     background-color: #4d4c7d;
     text-align: center;
