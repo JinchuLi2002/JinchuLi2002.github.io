@@ -132,6 +132,8 @@ h1 {
     background-color: #4d4c7d;
     text-align: center;
     margin: 0;
+    border: 10px white solid;
+    padding-bottom: 20px;
 
 
 }

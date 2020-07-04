@@ -141,6 +141,12 @@ nav a:hover::before {
 span {
   color: #dae1e7;
 }
-.logo{
 
-float:left;
+footer {
+  text-align: center;
+}
+.insta {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
