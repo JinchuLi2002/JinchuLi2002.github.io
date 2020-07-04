@@ -19,8 +19,25 @@ header ::after {
 }
 
 .color1 {
-
+  text-align: center;
   color: white;
+}
+.officers {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px white solid;
+}
+ table {
+   border-collapse: collapse;
+   text-align: center;
+ }
+
+ table td {
+  vertical-align: top;
+  width: 33%;
+  border: 1px white solid;
+  height: 33%;
+  padding: 20px;
 }
 
 nav ul {
@@ -181,7 +198,7 @@ footer {
   color: white;
   font-size: 15px;
   text-align: center;
-  background-color: #00909e;
+  background-color: #b590ca;
   padding: 5px;
   margin-top: 10px;
 }
@@ -240,7 +257,7 @@ table {
   background-color: #4d4c7d;
   color: white;
   font-family: "Poppins", sans-serif;
-
+ border: 10px white solid;
   font-weight: 400;
   background-position: center;
 }
@@ -279,9 +296,7 @@ caption {
     background-color: #b590ca;
     text-align: center;
   }
-  * {
-    box-sizing: border-box;
-  }
+
   .container{
     position: relative;
   }
