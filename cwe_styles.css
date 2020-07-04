@@ -79,6 +79,7 @@ nav a:hover::before {
 
 .outer-flex {
   background-color: #4d4c7d;
+  
 }
 
 .flex-container {
@@ -134,7 +135,7 @@ h1 {
   color: white;
   text-align: left;
   padding: 20px;
-  display: flex;
+  display: inline-block;
 }
 .padding1 {
     background-color: #4d4c7d;

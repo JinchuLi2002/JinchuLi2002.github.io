@@ -5,17 +5,20 @@ body {
 #wrapper {
   border: 1px solid black;
   border-radius: 10px;
-  width: 350px;
-  height: 375px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: 30px;
+  bottom: 30px;
+  left: 300px;
+  right: 100px;
+  text-align: center;
   background-color: white;
   -webkit-animation: fadein 3s;
   -ms-animation: fadein 3s;
   -o-animation: fadein 3s;
   animation: fadein 3s;
+  color: #4d4c7d;
 }
 
 @keyframes fadein {
@@ -67,12 +70,16 @@ body {
     opacity: 1;
   }
 }
-
+h1
+{
+  font-size: 30px;
+}
 #main {
-  font-family: 'Open Sans Condensed';
+  font-family: "Poppins", sans-serif;
   text-align: center;
   padding: 45px;
-  color: #3F403F;
+  color: #4d4c7d;
+
 }
 
 img.resize {
@@ -80,15 +87,11 @@ img.resize {
   height: auto;
 }
 
-img.logo {
-  width: 20%;
-  height: auto;
-}
 header{
  background-color: white;
  padding-right:20px;
  font-size: 14px;
- padding-top: 5px;
+font-family: "Montserrat" sans-serif;
  padding-bottom: 5px;
  padding-left:10px;
 }
@@ -96,10 +99,6 @@ header ::after {
   content : '';
   display: table;
   clear: both;
-}
-
-.color {
- color: #84a9ac;
 }
 nav ul {
   margin: 0;
@@ -133,6 +132,94 @@ nav a::before {
 nav a:hover::before {
   width:100%;
 }
+.color {
+  color: #84a9ac;
+}
+
+.logo{
+  float:left;
+}
+
+caption {
+
+  padding-left: 10px;
+ background-color: #4d4c7d;
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 400;
+  background-position: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+    color: #4d4c7d;
+  overflow-x: hidden;
+  font-size: 60px;
+
+  text-align: center;
+  color: white;
+  border: 10px solid white;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 100px;
+
+}
+
+.eventdesc {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  width: 100%;
+  color: white;
+
+}
+
+.timedate {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 526px;
+  color: white;
+}
+
+
+
+
+
+b {
+  padding-left: 20px;
+}
+
+table {
+  border: 2px solid white;
+  border-spacing: 5px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #827397;
+  color: white;
+}
+tr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.table {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  background-color: #827397;
+  padding-bottom: 20px;
+}
+.navbar {
+  text-align: right;
+  color: #00005c;
+}
+
 .flex-container {
 
   padding: 100px;
@@ -142,11 +229,10 @@ span {
   color: #dae1e7;
 }
 
-footer {
+
+#insta {
   text-align: center;
-}
-.insta {
-  text-align: center;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+  Follow us @cascadiawe!
 }
