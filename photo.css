@@ -107,7 +107,7 @@ body {
 }
 
 div.mySlides {
-display: inline-block;
+display: inline-grid;
 text-align: center;
 position: relative;
 
