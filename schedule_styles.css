@@ -162,3 +162,83 @@ h3 {
   font-size: 30px;
 
 }
+
+
+@media screen and (min-width: 841px)
+{
+  nav ul {
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+
+  }
+
+  .logo {
+    float: left;
+  }
+
+  nav a {
+    color: #856c8b;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  nav button{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 840px){
+  nav ul{
+    flex-direction: column;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.8%;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  nav a{
+    display: block;
+    color: #856c8b;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  nav li{
+    margin: 0;
+    padding:0;
+    height: 80px;
+    display: none;
+    font-size:150%;
+  }
+
+  nav button{
+    width: 12%;
+    display: block;
+    float: right;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: Transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-start;
+    -webkit-tap-highlight-color: transparent;
+    color: #856c8b;
+    text-decoration: none;
+  }
+
+}
