@@ -11,22 +11,16 @@ header ::after {
   display: table;
   clear: both;
 }
-nav ul {
-  margin: 0;
-  padding:0;
-  list-style: none;
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 25px;
-  position: relative;
-}
-nav a {
-  color: #856c8b;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+
 nav a:hover{
   color:#10375c;
 
@@ -106,16 +100,6 @@ body {
 
 }
 
-div.mySlides {
-display: inline-grid;
-text-align: center;
-position: relative;
-
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
 
 
 div.mySlides:hover {
@@ -138,6 +122,18 @@ div.carousel-caption {
 
 @media screen and (min-width: 841px)
 {
+
+div.mySlides {
+  display: inline-grid;
+  text-align: center;
+  position: relative;
+  
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
   nav ul {
     flex-direction: row;
     margin: 0;
@@ -170,6 +166,20 @@ div.carousel-caption {
 }
 
 @media screen and (max-width: 840px){
+
+div.mySlides {
+  display: block;
+  text-align: center;
+  position: relative;
+  
+    margin: 0px;
+    border: 1px;
+    width: 100%;
+  }
+
+  .photoheading {
+    font-size: 45px;
+  }
   nav ul{
     flex-direction: column;
     list-style: none;
