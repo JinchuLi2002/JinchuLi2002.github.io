@@ -11,22 +11,7 @@ header ::after {
   display: table;
   clear: both;
 }
-nav ul {
-  margin: 0;
-  padding:0;
-  list-style: none;
-}
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 25px;
-  position: relative;
-}
-nav a {
-  color: #856c8b;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+
 nav a:hover{
   color:#10375c;
 
@@ -52,7 +37,7 @@ nav a:hover::before {
 }
 
 caption {
-
+  
   padding-left: 10px;
  background-color: #4d4c7d;
   font-family: "Poppins", sans-serif;
@@ -94,7 +79,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   text-align: center;
-  width: 526px;
   color: white;
 }
 
@@ -162,3 +146,130 @@ h3 {
   font-size: 30px;
 
 }
+
+@media screen and (min-width: 841px)
+{
+  .timedate{
+    width: 526px;
+  }
+
+  .school{
+    font-size: 15px;
+    text-align: left;
+    position:relative;
+  }
+
+  table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+ 
+  table td {
+   vertical-align: top;
+   width: 33%;
+   border: 1px white solid;
+   height: 33%;
+   padding: 20px;
+ }
+
+  nav ul {
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+
+  }
+
+  .logo {
+    float: left;
+  }
+
+  nav a {
+    color: #856c8b;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  nav button{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 840px){
+
+  .timedate{
+    width: 100%;
+  }
+
+  .school{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    width:140px;
+    position:relative;
+  }
+
+  .flex-container h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .caption{
+    display:block;
+  }
+  
+  nav ul{
+    flex-direction: column;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.8%;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  nav a{
+    display: block;
+    color: #856c8b;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+
+  nav li{
+    margin: 0;
+    padding:0;
+    height: 80px;
+    display: none;
+    font-size: 150%;
+  }
+
+  nav button{
+    width: 12%;
+    display: block;
+    float: right;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: Transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-start;
+    -webkit-tap-highlight-color: transparent;
+    color: #856c8b;
+    text-decoration: none;
+  }
+
+}
+
