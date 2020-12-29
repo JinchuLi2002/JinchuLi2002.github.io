@@ -1,5 +1,5 @@
-# Cascadiaweengineersclub.com
-This is the website of the WE Engineers Club at Cascadia College from the 2020-2021 school year. Information about club activities, club officers, and more can be found here. 
+# cascadiaweengineersclub.com
+This is the website of the WE Engineers Club at Cascadia College from the 2020-2021 school year. Information about club activities, club officers, and more can be found on www.cascadiaweengineersclub.com. 
 
 ## Contributing club officers:
 * Jolie Ip
